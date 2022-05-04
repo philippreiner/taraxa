@@ -28,7 +28,7 @@ export function Sidemenu() {
             <MenuItem label="Current" icon={<RefreshIcon className='w-5 h-5'/>}/>
             <MenuItem label="Backlog" icon={<MenuAlt2Icon className='w-5 h-5'/>}/>
             <MenuItem label="Roadmap" icon={<MapIcon className='w-5 h-5'/>}/>
-            <MenuItem label="Completed" icon={<ArchiveIcon className='w-5 h-5'/>}/>
+            <MenuItem label="Completed" icon={<ArchiveIcon className='w-5 h-5 opacity-50'/>}/>
           </MenuGroup>
         </div>
         <div className='p-2'>
