@@ -18,15 +18,15 @@ export default function Oe() {
   const [selectedMailingLists, setSelectedMailingLists] = useState(mailingLists[0])
   
   return (
-  <div class="h-screen flex flex-col max-w-lg w-full mx-auto">
-    <div class="p-6 flex items-center text-gray-500 ">
+  <div className="h-screen flex flex-col max-w-lg w-full mx-auto">
+    <div className="p-6 flex items-center text-gray-500 ">
     <ArrowLeftIcon className="w-5 h-5 mr-3"/>
-      <span class="font-bold">
+      <span className="font-bold">
         Refraction
       </span>
     </div>
-    <div class="grow px-6">
-      <h1 class="text-3xl font-bold">Personalize</h1>
+    <div className="grow px-6">
+      <h1 className="text-3xl font-bold">Personalize</h1>
       <RadioGroup value={selectedMailingLists} onChange={setSelectedMailingLists}>
       <div className="mt-6 grid grid-cols-1 gap-y-3 sm:grid-cols-2 sm:gap-x-3">
         {mailingLists.map((mailingList) => (
@@ -62,7 +62,7 @@ export default function Oe() {
       </div>
     </RadioGroup>
     </div>
-    <div class="p-6">
+    <div className="p-6">
       <span className='w-full block rounded-sm p-3 text-center bg-blue-500 hover:bg-blue-700 text-white font-bold'>
         Next
       </span>
