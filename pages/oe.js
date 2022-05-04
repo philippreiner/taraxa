@@ -35,7 +35,7 @@ export default function Oe() {
             value={mailingList}
             className={({ checked, active }) =>
               classNames(
-                checked ? 'border-transparent' : 'border-gray-300',
+                checked ? 'border-transparent' : 'border-transparent',
                 active ? 'border-blue-500 ring-2 ring-blue-500 text-blue-500' : '',
                 'relative text-gray-500 bg-gray-100 border border-transparent rounded-lg px-3 py-6 flex cursor-pointer focus:outline-none'
               )
